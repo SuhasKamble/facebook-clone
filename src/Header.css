@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: white;
+  padding: 15px;
+  align-items: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.75);
+}
+
+.header__info > h3 {
+  margin-left: 10px;
+}
